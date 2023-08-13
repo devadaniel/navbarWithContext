@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.not-found-image {
+  height: 260px;
+  width: 280px;
+}
+
+.lost-your-way-heading {
+  font-weight: 'Roboto';
+  color: #1e293b;
+}
+.description {
+  font-family: 'Roboto';
+  color: #000000;
+}
+.not-found-light-description {
+  font-family: 'Roboto';
+  color: #000000;
+}
+
+.not-found-dark-description {
+  font-family: 'Roboto';
+  color: #ffffff;
+}

@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.header-light-container {
+  padding: 10px;
+}
+.navbar-light-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.website-log-image {
+  height: 60px;
+  width: 60px;
+}
+
+.list-item-light-container {
+  display: flex;
+  list-style-type: none;
+}
+
+.light-items {
+  font-weight: 'Roboto';
+  font-weight: 600;
+}
+.light-link-item {
+  text-decoration: none;
+  margin: 10px;
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.light-button-container {
+  background-color: transparent;
+  background-size: cover;
+  border: none;
+}
+
+.dark-theme-image {
+  height: 40px;
+  width: 40px;
+}
+
+/* Dark theme Header */
+.header-dark-container {
+  background-color: #000000;
+  height: 100vh;
+  background-size: cover;
+}
+
+.navbar-dark-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #333333;
+  background-size: cover;
+  padding: 5px;
+}
+
+.list-items-dark-container {
+  display: flex;
+  list-style-type: none;
+}
+
+.dark-link-item {
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.dark-button {
+  background-color: transparent;
+  background-size: cover;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.light-theme-image {
+  height: 40px;
+  width: 40px;
+}
